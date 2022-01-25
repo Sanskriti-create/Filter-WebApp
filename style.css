@@ -1,0 +1,47 @@
+#lipstic, #mush
+{
+    border: 5px ridge rgb(235, 119, 158);
+    width: 350px;
+    height: 300px;
+    background-color: rgb(235, 119, 158);
+}
+
+#inBD
+{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lipBD
+{
+    background-image: url("mu.jpg");
+}
+
+#musBD
+{
+    background-image: url("mbg.webp");
+}
+
+#head
+{
+    color: #000;
+}
+
+canvas
+{
+    border: 5px ridge;
+    animation-name: coler;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coler{
+    from{box-shadow: 1px 1px 45px darkorange;}
+    to{box-shadow: 1px 1px 45px deeppink;}
+};
+
+.back
+{
+    margin-top: 100px;
+}

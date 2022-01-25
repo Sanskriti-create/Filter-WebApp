@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Filter webapp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body id="inBD">
+        <center>
+        <h1 id="head">Filter WebApp</h1>
+        <br>
+        <h2>..Choose the filter you want..</h2>
+        <br><br>
+
+        <div class="col-md-6 col-sm-12 col-xs-12 lip">
+            <div id="lipstic">
+                <img src="lips.png" style="padding-top: 60px;">
+            </div>
+            <br>
+            <button class="btn btn-info" onclick="goLip()">Go With Lipstick</button>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 lip">
+            <div id="mush">
+                <img src="mush..png" style="padding-top: 60px;">
+            </div>
+            <br>
+            <button class="btn btn-info" onclick="goMush()">Go With Mustache</button>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</center>
+</html>
